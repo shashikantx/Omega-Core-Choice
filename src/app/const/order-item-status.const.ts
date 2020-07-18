@@ -1,0 +1,7 @@
+export const ORDER_ITEM_STATUS = {
+  EXCHANGE:'EXCHANGE',
+  VOID:'VOID',
+  REFUND:'REFUND',
+  DAMAGE:'DAMAGE',
+  CANCEL:'CANCEL', // Cancelled
+};

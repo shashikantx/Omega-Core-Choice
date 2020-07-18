@@ -1,0 +1,32 @@
+{
+  "author": {
+    "name": "OmegaCommerce"
+  },
+  "bugs": {
+    "url": "https://github.com/shashikantx/core-choice/issues"
+  },
+  "dependencies": {
+    "@omega/core": "git+https://github.com/shashikantx/Omega-Core.git"
+  },
+  "description": "Omega choice core js module",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
+  "homepage": "https://github.com/shashikantx/core-choice#readme",
+  "keywords": [
+    "omega"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@omega/core-choice",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashikantx/core-choice.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "publishX": "publish --access=public"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.0.92"
+}

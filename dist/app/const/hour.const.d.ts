@@ -1,0 +1,26 @@
+export declare const HOUR: {
+    "0H": string;
+    "1H": string;
+    "2H": string;
+    "3H": string;
+    "4H": string;
+    "5H": string;
+    "6H": string;
+    "7H": string;
+    "8H": string;
+    "9H": string;
+    "10H": string;
+    "11H": string;
+    "12H": string;
+    "13H": string;
+    "14H": string;
+    "15H": string;
+    "16H": string;
+    "17H": string;
+    "18H": string;
+    "19H": string;
+    "20H": string;
+    "21H": string;
+    "22H": string;
+    "23H": string;
+};
