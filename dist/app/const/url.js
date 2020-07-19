@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.URL = void 0;
 /**
  * ApiService -
  * we can inject this service into any component to get Api Endpoint.

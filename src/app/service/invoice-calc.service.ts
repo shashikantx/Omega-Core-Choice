@@ -1,7 +1,7 @@
 'use strict';
 
 import {OrderItemVo, OrderVo} from "../vo/tx";
-import {MathUtility, TxCustVo} from "@parakh/core";
+import {MathUtility, TxCustVo} from "@omega/core";
 
 export class InvoiceCalcService {
 

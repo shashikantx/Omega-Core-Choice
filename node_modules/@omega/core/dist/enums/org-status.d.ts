@@ -1,0 +1,15 @@
+export declare enum OrgStatus {
+    ACTIVE = 0,
+    INACTIVE = 1,
+    RIDE_AF_LOOSE_ORG = 2,
+    RIDE_AF_NOT_APPROVED = 3,
+    RIDE_AF_IN_PROGRESS = 4,
+    RIDE_AF_APPROVED = 5,
+    RIDE_AF_REJECTED = 6,
+    RIDE_AF_LIVE = 7,
+    RIDE_AF_DEAD = 8,
+    POS_MC_IN_PROGRESS = 9,
+    POS_MC_APPROVED = 10,
+    POS_MC_REJECTED = 11,
+    POS_MC_PENDING = 12
+}

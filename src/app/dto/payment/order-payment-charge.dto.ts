@@ -1,4 +1,4 @@
-import {PaymentChargeDto} from '@parakh/core';
+import {PaymentChargeDto} from '@omega/core';
 import {OrderVo} from '../../vo/tx';
 
 export interface OrderPaymentChargeDto {

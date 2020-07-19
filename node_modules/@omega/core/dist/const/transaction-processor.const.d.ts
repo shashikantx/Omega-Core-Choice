@@ -1,0 +1,23 @@
+export declare const TRANSACTION_PROCESSOR: {
+    CASH: string;
+    CARD: string;
+    QR: string;
+    PAX: string;
+    PAYNT: string;
+    STRIPE: string;
+    PAYPAL: string;
+    PAYU: string;
+    CASHFREE: string;
+    RAZORPAY: string;
+    CARD_DD: string;
+    DDPAY: string;
+    PAYTM: string;
+    PHONEPE: string;
+    GPAY: string;
+    BHARATPAY: string;
+    AIRTEL: string;
+    UPI: string;
+    UPI_AXIS: string;
+    UPI_ICICI: string;
+    UPI_HDFC: string;
+};

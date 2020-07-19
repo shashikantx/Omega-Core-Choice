@@ -1,0 +1,5 @@
+export const RESPONSE_STATUS = {
+  SUCCESS: 'SUCCESS',
+  FAIL: 'FAIL',
+  ERROR: 'ERROR'
+};

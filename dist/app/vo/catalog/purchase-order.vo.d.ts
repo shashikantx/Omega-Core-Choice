@@ -1,4 +1,4 @@
-import { AddressVo } from '@parakh/core';
+import { AddressVo } from '@omega/core';
 export interface PurchaseOrderVo {
     id: string;
     orgId: string;

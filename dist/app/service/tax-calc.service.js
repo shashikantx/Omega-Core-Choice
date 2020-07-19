@@ -20,7 +20,8 @@ var __spread = (this && this.__spread) || function () {
     return ar;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = require("@parakh/core");
+exports.TaxCalcService = void 0;
+var core_1 = require("@omega/core");
 var TaxCalcService = /** @class */ (function () {
     function TaxCalcService() {
     }

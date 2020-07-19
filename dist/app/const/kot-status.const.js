@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.KOT_STATUS = void 0;
 exports.KOT_STATUS = {
     OPEN: 'OPEN',
     SEND: 'SEND',

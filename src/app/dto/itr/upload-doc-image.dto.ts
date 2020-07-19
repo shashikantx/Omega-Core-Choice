@@ -1,4 +1,4 @@
-import {ImageDataVo} from "@parakh/core";
+import {ImageDataVo} from "@omega/core";
 
 export interface UploadDocImageDto {
   imgData: ImageDataVo;

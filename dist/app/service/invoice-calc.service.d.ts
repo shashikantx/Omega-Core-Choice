@@ -1,5 +1,5 @@
 import { OrderVo } from "../vo/tx";
-import { TxCustVo } from "@parakh/core";
+import { TxCustVo } from "@omega/core";
 export declare class InvoiceCalcService {
     calcInvoiceAmount(invoice: OrderVo): OrderVo;
     getTotalPaid(list: Array<TxCustVo>): number | undefined;

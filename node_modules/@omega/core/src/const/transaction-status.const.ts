@@ -1,0 +1,5 @@
+export const TRANSACTION_STATUS = {
+  SUCCESS: 'SUCCESS',
+  FAIL: 'FAIL', //ERROR,
+  TIME_OUT: 'TIME_OUT',
+};

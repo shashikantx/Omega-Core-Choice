@@ -1,4 +1,4 @@
-import {UserVo} from "@parakh/core";
+import {UserVo} from "@omega/core";
 
 export interface EmployeeTipDto {
   emp: UserVo;

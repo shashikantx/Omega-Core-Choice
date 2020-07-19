@@ -1,4 +1,4 @@
-import { UserVo } from '@parakh/core';
+import { UserVo } from '@omega/core';
 import { OrderItemVo } from './order-item.vo';
 export interface KotVo {
     id: string;

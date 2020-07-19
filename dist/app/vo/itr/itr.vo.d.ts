@@ -1,4 +1,4 @@
-import { ImageDataVo, UserVo } from "@parakh/core";
+import { ImageDataVo, UserVo } from "@omega/core";
 export interface ItrVo {
     id: string;
     orgId: string;

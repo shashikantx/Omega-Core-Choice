@@ -1,5 +1,5 @@
 import { CategorySalesDto, HourlySalesDto, ProductReportDto, WeeklySalesDto } from "../dto/report";
-import { UserVo } from "@parakh/core";
+import { UserVo } from "@omega/core";
 export declare class ReportCsvUtilityService {
     getHourlyReportVoForCsv(report: Array<HourlySalesDto>): any;
     getProductReportVoForCsv(report: ProductReportDto): any;

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.RESPONSE_MSG = void 0;
 exports.RESPONSE_MSG = {
     RECORD_SAVE: "msg.info.record.save",
     RECORD_EDIT: "msg.info.record.edit",

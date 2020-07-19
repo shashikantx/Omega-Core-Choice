@@ -1,0 +1,3 @@
+export enum MobilePlatform {
+  IOS, ANDROID, WIN, WEBOS, FIREOS, QNX, FIREFOXOS, TIZEN, SYMBIAN
+}

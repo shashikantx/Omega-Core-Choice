@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ITEM_TYPE = void 0;
 /**
  * Forced Modifier - server need to ask
  *  [non-item] Spice Level - Level 1 to Level 9

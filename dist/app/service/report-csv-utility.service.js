@@ -1,6 +1,7 @@
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = require("@parakh/core");
+exports.ReportCsvUtilityService = void 0;
+var core_1 = require("@omega/core");
 var const_1 = require("../const");
 var ReportCsvUtilityService = /** @class */ (function () {
     function ReportCsvUtilityService() {

@@ -1,4 +1,4 @@
-import {AddressVo, OrgVo, RegisterVo, TxCustVo, TxPaymentMethodVo, UserVo} from '@parakh/core';
+import {AddressVo, OrgVo, RegisterVo, TxCustVo, TxPaymentMethodVo, UserVo} from '@omega/core';
 
 import {OrderItemVo} from './order-item.vo';
 import {CreditMemoVo} from './credit-memo.vo';

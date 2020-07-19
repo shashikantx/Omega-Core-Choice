@@ -1,0 +1,38 @@
+import { UserVo } from '@parakh/core';
+export interface ReportOrderDto {
+    id: string;
+    registerId: string;
+    no: string;
+    date: Date;
+    txDateLast: Date;
+    status: string;
+    saleHour: string;
+    subTotal: number;
+    tax: number;
+    taxPercent: number;
+    igst: number;
+    cgst: number;
+    sgst: number;
+    taxState: number;
+    taxCounty: number;
+    taxSpecial: number;
+    taxCity: number;
+    discount: number;
+    serviceCharge: number;
+    discountCash: number;
+    totalDue: number;
+    totalCashPaid: number;
+    totalCreditPaid: number;
+    totalQrPaid: number;
+    totalQrPhonepe: number;
+    totalQrGpay: number;
+    totalQrPaytm: number;
+    totalQrOther: number;
+    totalCashRefund: number;
+    totalCreditRefund: number;
+    totalQrRefund: number;
+    employee: UserVo;
+    tip: number;
+    netTip: number;
+    txResponse: any;
+}

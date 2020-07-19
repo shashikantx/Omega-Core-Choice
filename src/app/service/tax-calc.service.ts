@@ -1,6 +1,6 @@
 'use strict';
 
-import {MathUtility, PercentFlatVo} from "@parakh/core";
+import {MathUtility, PercentFlatVo} from "@omega/core";
 import {AllTaxDto} from "../dto/tax";
 import {OrderItemVo} from "../vo/tx";
 import {ItemVo} from "../vo/catalog";
