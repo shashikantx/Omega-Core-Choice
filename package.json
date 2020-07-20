@@ -10,16 +10,18 @@
     "tslint": "~5.15.0",
     "typescript": "^3.7.5"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "@omega/core": "git+https://github.com/shashikantx/Omega-Core.git"
   },
+  "deprecated": false,
   "homepage": "https://github.com/shashikantx/Omega-Core#readme",
   "keywords": [
     "Omega"
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "name": "@omega/core",
+  "name": "@omega/core-choice",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shashikantx/Omega-Core.git"
@@ -29,5 +31,5 @@
     "publishX": "publish --access=public"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.80"
+  "version": "0.0.85"
 }
