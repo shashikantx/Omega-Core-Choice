@@ -11,7 +11,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@omega/core": "git+https://github.com/shashikantx/Omega-Core.git",
+    "@omega/core": "git+https://github.com/shashikantx/Omega-Core.git"
   },
   "homepage": "https://github.com/shashikantx/Omega-Core#readme",
   "keywords": [
