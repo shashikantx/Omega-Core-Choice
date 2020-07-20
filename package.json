@@ -3,7 +3,7 @@
     "name": "OmegaCommerce"
   },
   "bugs": {
-    "url": "https://github.com/shashikantx/core/issues"
+    "url": "https://github.com/shashikantx/Omega-Core-Choice/issues"
   },
   "description": "Omega core js module",
   "devDependencies": {
@@ -12,10 +12,10 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@omega/core": "git+https://github.com/shashikantx/Omega-Core.git"
+    "@omega/core": "https://github.com/shashikantx/Omega-Core.git"
   },
   "deprecated": false,
-  "homepage": "https://github.com/shashikantx/Omega-Core#readme",
+  "homepage": "https://github.com/shashikantx/Omega-Core-Choice#readme",
   "keywords": [
     "Omega"
   ],
@@ -24,12 +24,12 @@
   "name": "@omega/core-choice",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shashikantx/Omega-Core.git"
+    "url": "https://github.com/shashikantx/Omega-Core-Choice.git"
   },
   "scripts": {
     "build": "tsc",
     "publishX": "publish --access=public"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.85"
+  "version": "0.0.88"
 }
