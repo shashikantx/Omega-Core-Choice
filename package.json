@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@omega/core": "git+https://github.com/shashikantx/Omega-Core.git",
-    "@omega/core-choice": "git+https://github.com/shashikantx/Omega-Core-Choice.git"
   },
   "homepage": "https://github.com/shashikantx/Omega-Core#readme",
   "keywords": [
