@@ -2,7 +2,7 @@
 
 import {OrderItemVo, OrderVo} from "../vo/tx";
 import {CategorySalesDto, DailySalesReportDto, ReportOrderDto, TenderSalesDto, TotalCategorySalesDto, TotalSalesDto, TotalTenderSalesDto} from "../dto/report";
-import {MathUtility, TRANS_TYPE, TRANSACTION_MODE, TRANSACTION_STATUS, TxCustVo} from "@parakh/core";
+import {MathUtility, TRANS_TYPE, TRANSACTION_MODE, TRANSACTION_STATUS, TxCustVo} from "@omega/core";
 import {CategoryVo} from "../vo/catalog";
 import {OrderCalcService} from "./order-calc.service";
 

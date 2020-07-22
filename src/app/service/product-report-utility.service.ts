@@ -4,7 +4,7 @@ import {OrderCalcService} from "./order-calc.service";
 import {OrderItemVo, OrderVo} from "../vo/tx";
 import {ProductReportDto, ProductSalesDto, TotalProductSalesDto} from "../dto/report";
 import {CategoryVo, ItemCategoryVo} from "../vo/catalog";
-import {MathUtility} from "@parakh/core";
+import {MathUtility} from "@omega/core";
 import {ITEM_TYPE} from "../const";
 
 export class ProductReportUtilityService extends OrderCalcService {

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ORDER_STATUS_TX = void 0;
 exports.ORDER_STATUS_TX = {
     UNPAID: 'UNPAID',
     PAID: 'PAID',

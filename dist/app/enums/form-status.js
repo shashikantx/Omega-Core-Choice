@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.FormStatus = void 0;
 var FormStatus;
 (function (FormStatus) {
     FormStatus[FormStatus["START"] = 0] = "START";

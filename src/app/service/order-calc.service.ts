@@ -1,7 +1,7 @@
 'use strict';
 
 import {OrderItemVo, OrderVo} from "../vo/tx";
-import {MathUtility, TRANS_TYPE, TRANSACTION_STATUS} from "@parakh/core";
+import {MathUtility, TRANS_TYPE, TRANSACTION_STATUS} from "@omega/core";
 import {ORDER_STATUS} from "../const";
 import {ReportOrderDto} from "../dto/report";
 

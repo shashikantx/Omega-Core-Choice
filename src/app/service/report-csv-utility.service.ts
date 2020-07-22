@@ -1,7 +1,7 @@
 'use strict';
 
 import {CategorySalesDto, HourlySalesDto, ProductReportDto, ProductSalesDto, WeeklySalesDto} from "../dto/report";
-import {MathUtility, Month, UserVo} from "@parakh/core";
+import {MathUtility, Month, UserVo} from "@omega/core";
 import {HOUR} from "../const";
 
 export class ReportCsvUtilityService {

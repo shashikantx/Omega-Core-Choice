@@ -1,4 +1,7 @@
 export interface CategoryVo {
+  //new field
+  status: string;
+  //new field
   id: string;
 
   orgId: string;

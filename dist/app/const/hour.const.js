@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.HOUR = void 0;
 exports.HOUR = {
     "0H": "12:00 AM - 12:59 AM",
     "1H": "01:00 AM - 01:59 AM",

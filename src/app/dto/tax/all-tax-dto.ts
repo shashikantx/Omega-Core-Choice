@@ -1,4 +1,4 @@
-import {PercentFlatVo} from "@parakh/core";
+import {PercentFlatVo} from "@omega/core";
 
 export interface AllTaxDto {
   taxState: PercentFlatVo;

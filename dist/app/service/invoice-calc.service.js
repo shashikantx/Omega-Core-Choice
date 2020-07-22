@@ -1,6 +1,7 @@
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = require("@parakh/core");
+exports.InvoiceCalcService = void 0;
+var core_1 = require("@omega/core");
 var InvoiceCalcService = /** @class */ (function () {
     function InvoiceCalcService() {
     }

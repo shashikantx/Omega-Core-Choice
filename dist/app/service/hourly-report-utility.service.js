@@ -33,6 +33,7 @@ var __spread = (this && this.__spread) || function () {
     return ar;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.HourlyReportUtilityService = void 0;
 var order_calc_service_1 = require("./order-calc.service");
 var HourlyReportUtilityService = /** @class */ (function (_super) {
     __extends(HourlyReportUtilityService, _super);

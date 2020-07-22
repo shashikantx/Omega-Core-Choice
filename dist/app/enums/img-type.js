@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ImageType = void 0;
 var ImageType;
 (function (ImageType) {
     ImageType[ImageType["VHL_EXT_FRONT"] = 0] = "VHL_EXT_FRONT";

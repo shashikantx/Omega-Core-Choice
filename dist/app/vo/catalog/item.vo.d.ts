@@ -1,6 +1,6 @@
 import { ItemProductVo } from "./item-product.vo";
 import { ItemCategoryVo } from "./item-category.vo";
-import { PercentFlatVo } from "@parakh/core";
+import { PercentFlatVo } from "@omega/core";
 /**
  https://support.google.com/merchants/answer/6219078?hl=en
 

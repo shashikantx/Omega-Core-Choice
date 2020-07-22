@@ -44,8 +44,9 @@ var __values = (this && this.__values) || function(o) {
     throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ProductReportUtilityService = void 0;
 var order_calc_service_1 = require("./order-calc.service");
-var core_1 = require("@parakh/core");
+var core_1 = require("@omega/core");
 var ProductReportUtilityService = /** @class */ (function (_super) {
     __extends(ProductReportUtilityService, _super);
     function ProductReportUtilityService() {

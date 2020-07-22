@@ -1,4 +1,5 @@
 export interface CategoryVo {
+    status: string;
     id: string;
     orgId: string;
     brId: string;

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.INVOICE_FREQUENCY = void 0;
 exports.INVOICE_FREQUENCY = {
     YEARLY: 'YEARLY',
     BI_ANNUALLY: 'BI_ANNUALLY',

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.INVOICE_TERM = void 0;
 exports.INVOICE_TERM = {
     DUE_ON_RECEIPT: 'DUE_ON_RECEIPT',
     NET_15: 'NET_15',
