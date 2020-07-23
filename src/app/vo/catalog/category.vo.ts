@@ -1,6 +1,6 @@
 export interface CategoryVo {
   //new field
-  status: string;
+  status: boolean;
   //new field
   id: string;
 
