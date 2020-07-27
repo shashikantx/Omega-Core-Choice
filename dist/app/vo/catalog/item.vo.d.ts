@@ -18,6 +18,25 @@ import { PercentFlatVo } from "@omega/core";
  A medium red t-shirt created in 2018, for example, might read something like “TEE-RD-MED-18.”
  */
 export interface ItemVo {
+    upc: string;
+    path: string;
+    unit: string;
+    discount: string;
+    vendorId: string;
+    manufacturerId: string;
+    productType: string;
+    brandName: string;
+    productLable: string;
+    atrribute: string;
+    off: {
+        string: boolean;
+    };
+    displayOption: string;
+    status: string;
+    minStockLevel: string;
+    returnPolicy: string;
+    underAge: string;
+    vendorStatus: string;
     id: string;
     orgId: string;
     brId: string;
