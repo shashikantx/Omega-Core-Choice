@@ -24,19 +24,25 @@ upc: string;
 path: string;
 unit: string;
 discount: string;
-vendorId: string;
-manufacturerId: string;
+vendorData:  { id: string, name: string};
+manufacturerData: { id: string, name: string};
 productType: string;
 brandName: string;
 productLable: string;
 atrribute: string;
 off: { string: boolean };
 displayOption: string;
-status: string;
+status: { string: boolean };
 minStockLevel: string;
-returnPolicy: string;
-underAge: string;
+returnPolicy: { string: boolean };
+underAge: { string: boolean };
 vendorStatus: string;
+doM: Date;
+doE: Date;
+doP: Date;
+reorderPoint: string;
+stockInHand: string;
+reorderAmount: string;
 
 //new fields
 
