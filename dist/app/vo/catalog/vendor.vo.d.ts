@@ -4,7 +4,7 @@ export interface VendorVo {
     email: string;
     fax: string;
     bankName: string;
-    accountNo: string;
+    accountNo: number;
     accountType: string;
     routingNo: string;
     bankAddress: AddressVo;
