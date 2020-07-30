@@ -1,6 +1,20 @@
 import {AddressVo} from '@omega/core';
 
 export interface VendorVo {
+   //new fields
+   contactName: string;
+   email: string;
+   fax: string;
+   bankName: string;
+   accountNo: string;
+   accountType: string;
+   routingNo: string;
+   bankAddress: AddressVo;
+   paymentMethod: string;
+   creditCardTokenId: string;
+   billingAddress: AddressVo;
+   shippingAddress: AddressVo;
+    //new fields
   id: string;
 
   orgId: string;
