@@ -34,20 +34,11 @@ export interface ItemVo {
     brandName: string;
     productLable: string;
     atrribute: string;
-    off: {
-        string: boolean;
-    };
     displayOption: string;
-    status: {
-        string: boolean;
-    };
+    status: boolean;
     minStockLevel: string;
-    returnPolicy: {
-        string: boolean;
-    };
-    underAge: {
-        string: boolean;
-    };
+    returnPolicy: boolean;
+    underAge: boolean;
     vendorStatus: string;
     doM: Date;
     doE: Date;
@@ -55,6 +46,7 @@ export interface ItemVo {
     reorderPoint: string;
     stockInHand: string;
     reorderAmount: string;
+    doA: Date;
     id: string;
     orgId: string;
     brId: string;

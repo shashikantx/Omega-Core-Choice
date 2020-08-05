@@ -30,12 +30,11 @@ productType: string;
 brandName: string;
 productLable: string;
 atrribute: string;
-off: { string: boolean };
 displayOption: string;
-status: { string: boolean };
+status: boolean;
 minStockLevel: string;
-returnPolicy: { string: boolean };
-underAge: { string: boolean };
+returnPolicy: boolean;
+underAge: boolean;
 vendorStatus: string;
 doM: Date;
 doE: Date;
@@ -43,7 +42,7 @@ doP: Date;
 reorderPoint: string;
 stockInHand: string;
 reorderAmount: string;
-
+doA: Date;
 //new fields
 
   id: string;

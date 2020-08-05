@@ -14,6 +14,7 @@ export interface VendorVo {
    creditCardTokenId: string;
    billingAddress: AddressVo;
    shippingAddress: AddressVo;
+   status: boolean;
     //new fields
   id: string;
 
