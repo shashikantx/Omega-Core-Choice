@@ -43,6 +43,8 @@ reorderPoint: string;
 stockInHand: string;
 reorderAmount: string;
 doA: Date;
+displayInInnowi: boolean;
+displayInBrowser: boolean;
 //new fields
 
   id: string;

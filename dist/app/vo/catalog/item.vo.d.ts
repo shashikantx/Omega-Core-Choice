@@ -47,6 +47,8 @@ export interface ItemVo {
     stockInHand: string;
     reorderAmount: string;
     doA: Date;
+    displayInInnowi: boolean;
+    displayInBrowser: boolean;
     id: string;
     orgId: string;
     brId: string;
