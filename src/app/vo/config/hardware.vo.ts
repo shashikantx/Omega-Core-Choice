@@ -1,4 +1,16 @@
+import { AddressVo } from "@omega/core";
+
 export interface HardwareVo {
+  //new fields
+  validity: Date;
+  branch: string;
+  company: string;
+  location: AddressVo;
+  subscriptionDate: Date;
+  billingFrequency: string;
+  ipAddress: string; 
+  status: boolean;
+  //new fields
   id: string;
 
   orgId: string;
@@ -10,7 +22,7 @@ export interface HardwareVo {
   make: string; // EPSON
   model: string; // EPSON_TM_M30
   name: string;
-  address: string; // IP
+ 
 
   serviceMap: { string: boolean }; // HARDWARE_SERVICE_MAP - KITCHEN POS(CASHIER)
 

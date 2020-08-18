@@ -1,4 +1,13 @@
+import { AddressVo } from "@omega/core";
 export interface HardwareVo {
+    validity: Date;
+    branch: string;
+    company: string;
+    location: AddressVo;
+    subscriptionDate: Date;
+    billingFrequency: string;
+    ipAddress: string;
+    status: boolean;
     id: string;
     orgId: string;
     brId: string;
@@ -7,7 +16,6 @@ export interface HardwareVo {
     make: string;
     model: string;
     name: string;
-    address: string;
     serviceMap: {
         string: boolean;
     };
