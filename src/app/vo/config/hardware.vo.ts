@@ -9,6 +9,7 @@ export interface HardwareVo {
   billingFrequency: string;
   ipAddress: string; 
   status: boolean;
+  terminalId: string;
   //new fields
   id: string;
 
