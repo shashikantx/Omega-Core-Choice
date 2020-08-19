@@ -4,7 +4,6 @@ export interface HardwareVo {
   //new fields
   validity: Date;
   branch: string;
-  company: string;
   location: AddressVo;
   subscriptionDate: Date;
   billingFrequency: string;

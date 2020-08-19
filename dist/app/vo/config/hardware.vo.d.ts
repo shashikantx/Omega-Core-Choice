@@ -2,7 +2,6 @@ import { AddressVo } from "@omega/core";
 export interface HardwareVo {
     validity: Date;
     branch: string;
-    company: string;
     location: AddressVo;
     subscriptionDate: Date;
     billingFrequency: string;
