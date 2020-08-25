@@ -3,7 +3,10 @@ import { OrderItemVo } from './order-item.vo';
 import { CreditMemoVo } from './credit-memo.vo';
 import { DelayedChargesVo } from './delayed-charges.vo';
 import { KotVo } from './kot.vo';
+import { TxVo } from './tx.vo';
 export interface OrderVo {
+    deviceId: string;
+    tx: Array<TxVo>;
     id: string;
     orgId: string;
     brId: string;
