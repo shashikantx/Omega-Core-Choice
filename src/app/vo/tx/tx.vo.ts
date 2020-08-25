@@ -2,7 +2,6 @@ import {PercentFlatVo} from "@omega/core";
 import {ItemVo} from "../catalog";
 
 export interface TxVo {
-  item: ItemVo;
   cardHolderName:String;
   amount: number;
   authCode: String;
