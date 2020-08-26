@@ -13,6 +13,8 @@ export interface VendorVo {
     billingAddress: AddressVo;
     shippingAddress: AddressVo;
     status: boolean;
+    createdDate: Date;
+    modifiedDate: Date;
     id: string;
     orgId: string;
     brId: string;
