@@ -7,7 +7,5 @@ export interface FetchVendorCriteriaDto {
   startDate: Date;
   endDate: Date;
   address: AddressVo;
-  timeStartDate: Date;
-  timeEndDate: Date;
 
 }
