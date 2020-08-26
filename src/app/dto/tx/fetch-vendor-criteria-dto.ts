@@ -1,4 +1,3 @@
-import { AddressVo } from "@omega/core";
 
 export interface FetchVendorCriteriaDto {
   orgId: string;
@@ -6,6 +5,5 @@ export interface FetchVendorCriteriaDto {
   branchId: string;
   startDate: Date;
   endDate: Date;
-  address: AddressVo;
-
+  searchBy: string;
 }
