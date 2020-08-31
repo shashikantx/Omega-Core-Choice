@@ -1,6 +1,8 @@
 export interface CategoryVo {
   //new field
   status: boolean;
+  modifiedDate:Date;
+  createdDate:Date;
   //new field
   id: string;
 

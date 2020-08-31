@@ -1,5 +1,7 @@
 export interface CategoryVo {
     status: boolean;
+    modifiedDate: Date;
+    createdDate: Date;
     id: string;
     orgId: string;
     brId: string;
