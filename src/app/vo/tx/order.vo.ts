@@ -9,9 +9,12 @@ import { TxVo } from './tx.vo';
 export interface OrderVo {
   //new fields
   deviceId: string;
-  tx:Array<TxVo>; 
-  empId:string;
-  empName:string;
+  tx:Array<TxVo>;
+  employee:{
+    id:string;
+    name:string;
+    role:string;
+  }; 
   modifiedDate:Date;
 createdDate:Date;
    //new fields
