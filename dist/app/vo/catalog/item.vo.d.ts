@@ -49,6 +49,8 @@ export interface ItemVo {
     doA: Date;
     displayInInnowi: boolean;
     displayInBrowser: boolean;
+    modifiedDate: Date;
+    createdDate: Date;
     id: string;
     orgId: string;
     brId: string;
