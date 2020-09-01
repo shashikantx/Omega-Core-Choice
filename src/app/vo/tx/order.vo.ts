@@ -10,6 +10,10 @@ export interface OrderVo {
   //new fields
   deviceId: string;
   tx:Array<TxVo>; 
+  empId:string;
+  empName:string;
+  modifiedDate:Date;
+createdDate:Date;
    //new fields
   id: string;
 

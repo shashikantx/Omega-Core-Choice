@@ -7,6 +7,10 @@ import { TxVo } from './tx.vo';
 export interface OrderVo {
     deviceId: string;
     tx: Array<TxVo>;
+    empId: string;
+    empName: string;
+    modifiedDate: Date;
+    createdDate: Date;
     id: string;
     orgId: string;
     brId: string;
