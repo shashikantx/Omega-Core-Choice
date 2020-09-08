@@ -2,6 +2,8 @@ import { AddressVo } from "@omega/core";
 
 export interface HardwareVo {
   //new fields
+  modifiedDate: Date;
+  createdDate: Date;
   validity: Date;
   branch: string;
   location: AddressVo;
