@@ -47,6 +47,7 @@ displayInInnowi: boolean;
 displayInBrowser: boolean;
 modifiedDate:Date;
 createdDate:Date;
+nameLower:string;
 //new fields
 
   id: string;
