@@ -52,6 +52,7 @@ export interface ItemVo {
     modifiedDate: Date;
     createdDate: Date;
     nameLower: string;
+    categoryIds: string[];
     id: string;
     orgId: string;
     brId: string;

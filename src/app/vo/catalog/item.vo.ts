@@ -48,6 +48,7 @@ displayInBrowser: boolean;
 modifiedDate:Date;
 createdDate:Date;
 nameLower:string;
+categoryIds:string[];
 //new fields
 
   id: string;
