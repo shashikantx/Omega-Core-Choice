@@ -48,7 +48,11 @@ displayInBrowser: boolean;
 modifiedDate:Date;
 createdDate:Date;
 nameLower:string;
+brandLower:string;
+vendorLower:string;
+manufacturerLower:string;
 categoryIds:string[];
+
 //new fields
 
   id: string;
