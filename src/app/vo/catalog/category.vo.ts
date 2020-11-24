@@ -3,6 +3,7 @@ export interface CategoryVo {
   status: boolean;
   modifiedDate:Date;
   createdDate:Date;
+  nameLower:string;
   //new field
   id: string;
 

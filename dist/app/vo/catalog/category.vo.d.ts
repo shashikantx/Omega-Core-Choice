@@ -2,6 +2,7 @@ export interface CategoryVo {
     status: boolean;
     modifiedDate: Date;
     createdDate: Date;
+    nameLower: string;
     id: string;
     orgId: string;
     brId: string;
