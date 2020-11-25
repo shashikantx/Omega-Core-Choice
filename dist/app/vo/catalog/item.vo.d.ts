@@ -56,6 +56,8 @@ export interface ItemVo {
     vendorLower: string;
     manufacturerLower: string;
     categoryIds: string[];
+    taxFederal: PercentFlatVo;
+    defaulBranchTax: boolean;
     id: string;
     orgId: string;
     brId: string;
