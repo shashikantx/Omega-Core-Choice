@@ -53,7 +53,7 @@ vendorLower:string;
 manufacturerLower:string;
 categoryIds:string[];
 taxFederal: PercentFlatVo;
-defaulBranchTax: boolean;
+defaultBranchTax: boolean;
 
 //new fields
 
