@@ -44,7 +44,7 @@ export interface ItemVo {
     doE: Date;
     doP: Date;
     reorderPoint: string;
-    stockInHand: string;
+    stockInHand: number;
     reorderAmount: string;
     doA: Date;
     displayInInnowi: boolean;
