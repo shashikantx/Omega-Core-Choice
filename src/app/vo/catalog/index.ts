@@ -9,3 +9,4 @@ export * from './manufacturer.vo';
 export * from './modifier.vo';
 export * from './purchase-order.vo';
 export * from './vendor.vo';
+export * from './sales-channel.vo';

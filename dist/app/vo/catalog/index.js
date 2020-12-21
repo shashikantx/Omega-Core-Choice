@@ -21,3 +21,4 @@ __exportStar(require("./manufacturer.vo"), exports);
 __exportStar(require("./modifier.vo"), exports);
 __exportStar(require("./purchase-order.vo"), exports);
 __exportStar(require("./vendor.vo"), exports);
+__exportStar(require("./sales-channel.vo"), exports);
