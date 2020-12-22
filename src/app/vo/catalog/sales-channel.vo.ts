@@ -6,4 +6,5 @@ export interface SalesChannelVo {
    createdDate: Date;
    modifiedDate: Date;
    id: string;
+   orgId:string;
 }

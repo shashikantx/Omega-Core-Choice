@@ -31,5 +31,5 @@
     "publishX": "publish --access=public"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.120"
+  "version": "0.0.121"
 }
