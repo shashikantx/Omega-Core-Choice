@@ -17,6 +17,9 @@ export declare const URL: {
     MANUFACTURER: string;
     BRANCH: string;
     VENDOR: string;
+    SALES_CHANNEL_LIST: string;
+    ADD_UPDATE_SALES_CHANNEL: string;
+    SALES_CHANNELBYID: string;
     COUPON: string;
     DISCOUNT: string;
     DISCOUNT_TYPE: string;
